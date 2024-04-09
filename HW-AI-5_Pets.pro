@@ -1,0 +1,17 @@
+DOMAINS % описание переменных
+animal = elephant; giraffe; zebra; cheetah.
+
+PREDICATES % виды фактов и отношений
+имеет_полоски(animal).
+имеет_хобот(animal).
+быстро_бегает(animal).
+
+CLAUSES % перечисляем факты и сведения
+имеет_полоски(zebra).
+имеет_полоски(cheetah).
+имеет_хобот(elephant).
+быстро_бегает(cheetah).
+
+GOAL % цель, которую ищем
+% имеет_полоски(elephant).
+имеет_хобот(giraffe).
